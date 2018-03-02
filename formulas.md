@@ -75,7 +75,7 @@ Here is a detailed explanation of what the ternary formula does:
 
 1. "[Full name].present?" will check if the *Full name* pill has a value. If it has a value, it evaluates to true. If it has no value, it evaluates to false.
 2. The second ? in the formula separates the condition to evaluate from the commands to execute.
-3. If there is a value in the *Full name* pill when the job is ran, the value for *Full name* will be used as the *Message*.
-4. If there is no value in the *Full name* pill when the job is ran, the value for *First name* will be used as the *Message*. Of course, if there's also no value in this *First name* pill, the job will fail at this step, as *Message* is a required field.
+3. If there is a value in the *Full name* pill when the job is run, the value for *Full name* is used as the *Message*.
+4. If there is no value in the *Full name* pill when the job is run, the value for *First name* is used as the *Message*. Of course, if there's also no value in this *First name* pill, the job will fail at this step, as *Message* is a required field.
 
 For more information on Ruby's ternary syntax, check out this [article](http://www.w3resource.com/ruby/ruby-ternary-operator.php).
